@@ -17,44 +17,52 @@ header {
 #headerbox {
 	width: 400px;
 	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 1em;
 	margin-top: 2em;
 	text-decoration: bold;
 	font-family: 'Montserrat', sans-serif;
 	float: left;
 }
+#headerbox h1 {
+	font-size: 1.75em;
+
+
+}
+#headerbox h2 {
+	font-size: 1em;
+	margin-top: .5em;
+}
 
 h1 {
 	text-align: center;
-	font-size: 25px;
 	text-transform: uppercase;
 	font-family: 'Montserrat', sans-serif;
 }
 h2 {
 	text-align: center;
-	font-size: 14px;
-	font-style: italic;
 	text-transform: uppercase;
 	clear: right
 	font-family: 'Montserrat', sans-serif;
 }
 
-}
 nav {
 	float: right;
-	margin-top: 5em;
-	margin-bottom: 2em;
-	width: 450px;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	width: 810px;
 }
 .nav {
-	display: inline;
+	display: inline-block;
 	font-family: 'Montserrat', Arial;
 	letter-spacing: .25em;
 	padding: 2em;
-	margin-top: 5em;
 	font-size: 15px;
 }
 .section {
 	font-family: Cambria, Arial;
+	vertical-align: middle;
+	margin-bottom: 1em;
 }
 a:hover {
 	color: blue;
@@ -69,11 +77,11 @@ p {
 .series {
 	text-decoration: underline;
 	text-transform: uppercase;
-	float: left;
+	display: inline-block;
 	text-align: center;
 	text-height: 2%;
 	width: 350px;
-	margin: 2em .5em;
+	margin: .5em .5em;
 	font-family: 'Montserrat', Arial;
 }
 img {
