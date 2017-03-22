@@ -22,8 +22,9 @@ header {
 	padding-top: .5em;
 	top: 0;
 	background-color: rgba(111, 148, 220, 1);
-
+	z-index: 2;
 }
+
 #headerbox {
 	width: 100%;
 	margin-bottom: 2em;
@@ -51,7 +52,7 @@ h1 {
 h2 {
 	text-align: center;
 	text-transform: uppercase;
-	clear: right
+	clear: right;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -103,6 +104,7 @@ p {
 	text-transform: uppercase;
 	text-decoration: underline;
 	text-height: 2%;
+	position: relative;
 }
 img {
 	text-align: center;
@@ -139,6 +141,14 @@ footer {
   height: 0;
 }
 
+.titles {
+	 position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
 
 @media only screen and (max-width: 1093px) {
 	header {
@@ -220,6 +230,7 @@ footer {
 	.series {
 			display: block;
 			width: 100%;
+			height: auto;
 			text-align: center;
 			vertical-align: middle;
 
@@ -231,6 +242,11 @@ footer {
 	img {
 			display: block;
 			margin: 0 auto;
+			width: 100%;
+			height: auto;
 	}
-
+	.footer {
+			display: inline-block;
+			margin-top: .5em;
+	}
 }
