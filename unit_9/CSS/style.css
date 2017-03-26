@@ -198,14 +198,17 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 575px) {
 	.footer {
 			float: none;
 			display: block;
+			margin: 1em;
+			padding: 0;
 	}
 	.copyright {
 			float: none;
 			display: block;
+			margin: .5em;
 	}
 }
 
@@ -246,7 +249,9 @@ footer {
 	}
 	.footer {
 			display: inline-block;
-			margin-top: .5em;
+			margin: .25em;
+			padding-top: .25em;
+			padding-bottom: .25em;
 	}
 }
 
@@ -265,5 +270,26 @@ footer {
 	.nav 	{
 			padding: 1em;
 			margin: .5em;
+	}
+	.section {
+			visibility: hidden;
+			display: none;
+	}
+	.footer {
+			margin: 0.25em;
+			padding: .5em;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+
+	#newsbar {		
+			height: 10%;
+			padding-top: .5em;
+			top: 0;
 	}
 }
