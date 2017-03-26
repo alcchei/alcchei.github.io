@@ -1,0 +1,269 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Mallanna);
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #000000;
+	text-align: center;
+	background-size: cover;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+	width: 40%;
+	margin-bottom: 2em;
+
+}
+#newsbar {
+	position: fixed;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	width: 100%;
+	height: 5%;
+	padding-top: .5em;
+	top: 0;
+	background-color: rgba(111, 148, 220, 1);
+	z-index: 2;
+}
+
+#headerbox {
+	width: 100%;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	margin-right: 1em;
+	margin-top: 3em;
+	text-decoration: bold;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+}
+#headerbox h1 {
+	font-size: 1.75em;
+
+}
+#headerbox h2 {
+	font-size: 1em;
+	margin-top: .5em;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+h2 {
+	text-align: center;
+	text-transform: uppercase;
+	clear: right;
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+	float: right;
+	width: 55%;
+}
+.nav {
+	display: inline-block;
+	font-family: 'Montserrat', Arial;
+	letter-spacing: .25em;
+	padding: 2em;
+	margin-top: 2em;
+	font-size: 15px;
+}
+.section {
+	font-family: Cambria, Arial;
+	vertical-align: middle;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+	margin-right: 3em;
+}
+a:hover {
+	color: blue;
+}
+p {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 1em;
+
+}
+/*.titles {
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	text-height: 2%;
+	font-family: 'Montserrat', Arial;
+
+}*/
+
+.series {
+	display: inline-block;
+	text-align: center;
+	text-height: 3%;
+	width: 30.5%;
+	margin: .5em 0em;
+	font-family: 'Montserrat', Arial;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-height: 2%;
+	position: relative;
+}
+img {
+	text-align: center;
+	height: 350px;
+	margin: .3em;
+
+}
+section {
+	text-align: center;
+	clear: both;
+	margin-top: 2em;
+}
+footer {
+	clear: both;
+}
+.footer {
+	display: inline;
+	float: right;
+	padding: 2em 2em;
+	font-family: Cambria, Arial;
+}
+.copyright {
+	float: left;
+	padding: 2em 2em;
+	font-family: Cambria, Arial;
+}
+
+.clearfix:after {
+	visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.titles {
+	 position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 1093px) {
+	header {
+			width: 100%;
+			padding: .5%;
+			margin-bottom: .5em;
+	}
+	#headerbox {
+			margin-top: 2.5em;
+			margin-bottom: .5em;
+			float: none;
+			width: 100%;
+	}
+	#headerbox h1, h2 {
+			text-align: center;
+	}
+	nav {
+			width: 100%;
+			margin-top: .5em;
+	}
+
+	img {
+			height: 300px;
+	}
+	.nav {
+			padding: 1em;
+			margin-top: .5em;
+			margin-bottom: .5em;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	img {
+			height: 250px;
+	}
+}
+
+@media only screen and (max-width: 785px) {
+	img {
+			height: 200px;
+	}
+}
+
+@media only screen and (max-width: 632px) {
+	img {
+			height: 150px;
+	}
+}
+
+@media only screen and (max-width: 574px) {
+	.footer {
+			float: none;
+			display: block;
+	}
+	.copyright {
+			float: none;
+			display: block;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#headerbox {
+			float: none;
+			text-align: center;
+			width: 100%;
+			padding-top: 1em;
+			padding-left: .5em
+			padding-right: .5em;
+	}
+	nav {
+			float: none;
+			margin-top: .5em;
+	}
+	.nav {
+			display: block;
+			text-align: center;
+	}
+	.series {
+			display: block;
+			width: 100%;
+			height: auto;
+			text-align: center;
+			vertical-align: middle;
+
+	}
+	#newsbar {
+			height: 5%;
+			padding-bottom: .5em;
+	}
+	img {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			height: auto;
+	}
+	.footer {
+			display: inline-block;
+			margin-top: .5em;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	#headerbox {
+			margin-top: 3em;
+	}
+	#newsbar h1 {
+			padding-left: 1.5em;
+			padding-right: 1.5em;
+			padding-bottom: .5em;
+	}
+	#newsbar {
+			height: 6.5%;
+	}
+	.nav 	{
+			padding: 1em;
+			margin: .5em;
+	}
+}
