@@ -103,7 +103,6 @@ p {
 	font-family: 'Montserrat', Arial;
 	text-transform: uppercase;
 	text-decoration: underline;
-	text-height: 2%;
 	position: relative;
 }
 img {
@@ -288,8 +287,11 @@ and (max-device-width : 667px)
 and (orientation : landscape) { 
 
 	#newsbar {		
-			height: 10%;
-			padding-top: .5em;
+		/*	height: 20%;*/
+			padding-top: 1em;
 			top: 0;
+	}
+	.section {
+			height: 3%;
 	}
 }
