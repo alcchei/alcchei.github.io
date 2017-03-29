@@ -291,7 +291,10 @@ and (orientation : landscape) {
 			/*padding-top: 1em;*/
 			/*top: 0;*/
 	}
+	#headerbox {
+			margin: 1.5em;
+	}
 	.section {
-			height: 3%;
+			height: 1em;
 	}
 }
