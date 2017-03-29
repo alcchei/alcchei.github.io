@@ -257,6 +257,8 @@ footer {
 @media only screen and (max-width: 414px) {
 	#headerbox {
 			margin-top: 3em;
+			margin-left: .2em;
+			margin-right: .2em;
 	}
 	#newsbar h1 {
 			padding-left: 1.5em;
@@ -264,7 +266,7 @@ footer {
 			padding-bottom: .5em;
 	}
 	#newsbar {
-			height: 25px;
+			height: 35px;
 	}
 	.nav 	{
 			padding: 1em;
@@ -287,7 +289,7 @@ and (max-device-width : 667px)
 and (orientation : landscape) { 
 
 	#newsbar {		
-			height: 25px;
+			height: 35px;
 			/*padding-top: 1em;*/
 			/*top: 0;*/
 	}
