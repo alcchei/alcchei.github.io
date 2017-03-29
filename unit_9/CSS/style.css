@@ -17,7 +17,7 @@ header {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	width: 100%;
-	height: 5%;
+	height: 25px;
 	padding-top: .5em;
 	top: 0;
 	background-color: rgba(111, 148, 220, 1);
@@ -27,8 +27,8 @@ header {
 #headerbox {
 	width: 100%;
 	margin-bottom: 2em;
-	margin-left: 2em;
-	margin-right: 1em;
+	/*margin-left: 2em;*/
+	/*margin-right: 1em;*/
 	margin-top: 3em;
 	text-decoration: bold;
 	font-family: 'Montserrat', sans-serif;
@@ -107,7 +107,9 @@ p {
 }
 img {
 	text-align: center;
-	height: 350px;
+	/*height: 350px;*/
+	width: 100%;
+	height: auto;
 	margin: .3em;
 
 }
@@ -160,6 +162,7 @@ footer {
 			margin-bottom: .5em;
 			float: none;
 			width: 100%;
+			margin: 3em auto 0em;
 	}
 	#headerbox h1, h2 {
 			text-align: center;
@@ -167,10 +170,6 @@ footer {
 	nav {
 			width: 100%;
 			margin-top: .5em;
-	}
-
-	img {
-			height: 300px;
 	}
 	.nav {
 			padding: 1em;
@@ -180,12 +179,13 @@ footer {
 }
 
 @media only screen and (max-width: 960px) {
-	img {
-			height: 250px;
+	img {	
+			width: 100%;
+			height: auto;
 	}
 }
 
-@media only screen and (max-width: 785px) {
+/*@media only screen and (max-width: 785px) {
 	img {
 			height: 200px;
 	}
@@ -195,7 +195,7 @@ footer {
 	img {
 			height: 150px;
 	}
-}
+}*/
 
 @media only screen and (max-width: 575px) {
 	.footer {
@@ -236,10 +236,10 @@ footer {
 			vertical-align: middle;
 
 	}
-	#newsbar {
-			height: 5%;
-			padding-bottom: .5em;
-	}
+	/*#newsbar {*/
+			/*height: 5%;*/
+			/*padding-bottom: .5em;*/
+	/*}*/
 	img {
 			display: block;
 			margin: 0 auto;
@@ -264,7 +264,7 @@ footer {
 			padding-bottom: .5em;
 	}
 	#newsbar {
-			height: 6%;
+			height: 25px;
 	}
 	.nav 	{
 			padding: 1em;
@@ -287,9 +287,9 @@ and (max-device-width : 667px)
 and (orientation : landscape) { 
 
 	#newsbar {		
-		/*	height: 20%;*/
-			padding-top: 1em;
-			top: 0;
+			height: 25px;
+			/*padding-top: 1em;*/
+			/*top: 0;*/
 	}
 	.section {
 			height: 3%;
