@@ -300,3 +300,12 @@ and (max-device-width : 667px) {
 			height: 1em;
 	}
 }
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+  	#newsbar {
+  			height: 40px;
+  	}
+  }
+
