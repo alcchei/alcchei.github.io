@@ -312,8 +312,8 @@ and (max-device-width : 667px) {
   		min-height: 2em;
   		line-height: 1em;
   	}
-  	.nav {
-  		positive: relative;
+  	/*/*.nav {*/
+  	/*	positive: relative;
   		display: inline-block;
   		width: 1.25em;
   		height: 0.8em;
@@ -327,7 +327,7 @@ and (max-device-width : 667px) {
   		top: 0.3em;
   		left: 0px;
   		width: 100%;
-  		border-top: 0.2em solid #fff;
-  	}
+  		border-top: 0.2em solid #fff;*/
+  	/*}*/
   }
 
