@@ -307,6 +307,18 @@ and (max-device-width : 667px) {
   	#newsbar {
   			height: 40px;
   	}
+  	nav {
+  			max-height: 0;
+  			overflow: hidden;
+  			margin: 0 3.5em 0 1em;
+  	}
+  	.nav {
+  			visibility: hidden;
+  			display: block;
+  			padding: 0.5em 0.6em;
+  			border: none;
+  	}		
+  	
   	/*/nav {
   		padding: 0.5em;
   		min-height: 2em;
